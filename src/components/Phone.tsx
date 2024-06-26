@@ -5,6 +5,7 @@ import { HTMLAttributes } from 'react';
 interface PhoneProps extends HTMLAttributes<HTMLDivElement> {
   imgSrc: string;
   dark?: boolean;
+  className?: string;
 }
 
 const Phone = ({ imgSrc, dark = false, className, ...props }: PhoneProps) => {

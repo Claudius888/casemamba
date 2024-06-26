@@ -28,7 +28,7 @@ export default function Home() {
                text-gray-900 text-5xl md:text-6xl lg:text-7xl'
               >
                 Your Image on a{' '}
-                <span className='bg-green-600 px-2 text-white'>Custom</span>{' '}
+                <span className='bg-red-600 px-2 text-white'>Custom</span>{' '}
                 Phone Case
               </h1>
               <p
@@ -46,15 +46,15 @@ export default function Home() {
               >
                 <div className='space-y-2'>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />
+                    <Check className='h-5 w-5 shrink-0 text-red-600' />
                     High-quality, durable material
                   </li>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />5 year
+                    <Check className='h-5 w-5 shrink-0 text-red-600' />5 year
                     print guarantee
                   </li>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />
+                    <Check className='h-5 w-5 shrink-0 text-red-600' />
                     Modern iPhone models supported
                   </li>
                 </div>
@@ -98,24 +98,24 @@ export default function Home() {
                 <div className='flex flex-col justify-between items-center sm:items-start'>
                   <div className='flex gap-0.5'>
                     <Star
-                      className='h-4 w-4 text-green-600 
-                    fill-green-600'
+                      className='h-4 w-4 text-red-600 
+                    fill-red-600'
                     />
                     <Star
-                      className='h-4 w-4 text-green-600 
-                    fill-green-600'
+                      className='h-4 w-4 text-red-600 
+                    fill-red-600'
                     />
                     <Star
-                      className='h-4 w-4 text-green-600 
-                    fill-green-600'
+                      className='h-4 w-4 text-red-600 
+                    fill-red-600'
                     />
                     <Star
-                      className='h-4 w-4 text-green-600 
-                    fill-green-600'
+                      className='h-4 w-4 text-red-600 
+                    fill-red-600'
                     />
                     <Star
-                      className='h-4 w-4 text-green-600 
-                    fill-green-600'
+                      className='h-4 w-4 text-red-600 
+                    fill-red-600'
                     />
                   </div>
                   <p>
