@@ -16,8 +16,8 @@ export default function Home() {
             <div className='relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start'>
               <div className='absolute w-28 left-0 -top-20 hidden lg:block'>
                 {/* i forgot this div right here in the video, it's purely visual gradient and looks nice */}
-                <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t via-slate-50/50 from-slate-50 h-28' />
-                <img src='/snake-1.png' className='w-full' />
+                <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t via-slate-50/50 from-slate-50 h-20 w-40' />
+                <img src='/snake-1.png' className='max-w-40' />
               </div>
               <h1 className='relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl'>
                 Your Image on a{' '}
@@ -210,7 +210,7 @@ export default function Home() {
             <div className='mx-auto max-w-2xl sm:text-center'>
               <h2 className='order-1 mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900'>
                 Upload your photo and get{' '}
-                <span className='relative px-2 bg-green-600 text-white'>
+                <span className='relative px-2 bg-red-600 text-white'>
                   your own case
                 </span>{' '}
                 now
@@ -238,19 +238,19 @@ export default function Home() {
 
           <ul className='mx-auto mt-12 max-w-prose sm:text-lg space-y-2 w-fit'>
             <li className='w-fit'>
-              <Check className='h-5 w-5 text-green-600 inline mr-1.5' />
+              <Check className='h-5 w-5 text-red-600 inline mr-1.5' />
               High-quality silicone material
             </li>
             <li className='w-fit'>
-              <Check className='h-5 w-5 text-green-600 inline mr-1.5' />
+              <Check className='h-5 w-5 text-red-600 inline mr-1.5' />
               Scratch- and fingerprint resistant coating
             </li>
             <li className='w-fit'>
-              <Check className='h-5 w-5 text-green-600 inline mr-1.5' />
+              <Check className='h-5 w-5 text-red-600 inline mr-1.5' />
               Wireless charging compatible
             </li>
             <li className='w-fit'>
-              <Check className='h-5 w-5 text-green-600 inline mr-1.5' />5 year
+              <Check className='h-5 w-5 text-red-600 inline mr-1.5' />5 year
               print warranty
             </li>
 
